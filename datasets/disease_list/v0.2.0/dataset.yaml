@@ -1,0 +1,12 @@
+# Drug List Dataset v0.2.0
+# Curated list of drugs with classifications, ATC codes, and chemical structures
+
+name: drug_list
+version: 0.2.0
+description: Curated list of drugs with classifications, ATC codes, and chemical structures from DrugBank and manual curation
+status: active
+
+location:
+  type: gcs
+  uri: gs://data.dev.everycure.org/data/01_RAW/drug_list/v0.2.0/ec-drug-list.tsv
+  format: tsv
