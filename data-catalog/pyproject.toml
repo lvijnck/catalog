@@ -11,7 +11,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["data-catalog*"]
+include = ["data_catalog*"]
 
 [tool.setuptools.package-data]
-data-catalog = ["datasets/**/*.yaml"]
+data_catalog = ["datasets/**/*.yaml"]
